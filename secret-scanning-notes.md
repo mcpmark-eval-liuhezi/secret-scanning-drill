@@ -55,8 +55,8 @@ The reference list of supported secret types (Security and code quality → Supp
 | `mongodb_connection_string` | MongoDB connection strings containing credentials |
 | `mysql_connection_url` | MySQL connection strings containing credentials |
 | `postgres_connection_string` | PostgreSQL connection strings containing credentials |
-| `http_basic_authentication_header` | HTTP Basic Authentication credentials in headers |
-| `http_wearer_authentication_header` | HTTP Bearer tokens used for API authentication |
+| `http_basic_authentication_header` | HTTP Basic Authentication credentials in request headers |
+| `http_bearer_authentication_header` | HTTP Bearer tokens used for API authentication |
 
 *Validity checks are **not** supported for generic patterns.*
 
@@ -79,9 +79,12 @@ The full reference table lists patterns across providers with per-pattern flags 
 
 ## 4. Documentation references
 
-- Overview of how secret scanning works: https://docs.github.com/en/code-security/secret-scanning/searching-for-and-prioritizing-secret-scanning-alerts
-- Reference list of supported secret scanning patterns: https://docs.github.com/en/code-security/secret-scanning/supported-secret-scanning-patterns
-- Enabling secret scanning for your repository: https://docs.github.com/en/code-security/secret-scanning/enabling-secret-scanning-for-your-repository
+- Overview of how secret scanning works: https://docs.github.com/en/code-security/secret-scanning
+- Understanding GitHub secret types: https://docs.github.com/en/code-security/reference/secret-security/secret-types
+- Secret scanning detection scope: https://docs.github.com/en/code-security/reference/secret-security/secret-scanning-scope
+- Supported secret scanning patterns: https://docs.github.com/en/code-security/reference/secret-security/supported-secret-scanning-patterns
+- About secret scanning alerts: https://docs.github.com/en/code-security/concepts/secret-security/about-alerts
+- Custom patterns: https://docs.github.com/en/code-security/reference/secret-security/custom-patterns
 
 ## 5. Recap for the walkthrough
 
